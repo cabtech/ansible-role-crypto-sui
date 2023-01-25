@@ -1,0 +1,7 @@
+---
+skip_list:
+- yaml[indentation]
+# meta-no-info
+# role-name
+# ignore-errors
+...
