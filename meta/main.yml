@@ -6,9 +6,9 @@ galaxy_info:
   description: Sets up a Sui node
   galaxy_tags: [blockchain, crytocurrency]
   license: GPL v3
-  role_name: ansible_role_crypto_sui
   min_ansible_version: "2"
   namespace: cabtech
+  role_name: ansible_role_crypto_sui
   platforms:
   - name: Ubuntu
     versions: [bionic, focal, jammy]

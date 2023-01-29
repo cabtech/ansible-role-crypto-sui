@@ -1,0 +1,10 @@
+---
+# --------------------------------
+
+sui_pkg_dependencies: [build-essential, ca-certificates, cmake, curl, gcc, git-all, libclang-dev, libssl-dev, pkg-config, tzdata]
+sui_username: sui
+sui_directories:
+- {path: /var/lib/sui, group: sui, owner: sui, mode: "0755"}
+
+# --------------------------------
+...
