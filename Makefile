@@ -1,5 +1,7 @@
 lint: .lintyaml .lintansible
 
+.PHONY: clean init-uv lint update-uv
+
 .lintyaml:
 	uv run yamllint --config-file=.config/yamllint .
 
